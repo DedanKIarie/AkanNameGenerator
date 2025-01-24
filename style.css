@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .page {
     position: fixed;
     top: 0;
@@ -11,7 +15,7 @@
 .form {
     backdrop-filter: blur(5px);
     width: 400px;
-    height: 470px;
+    height: 280px;
     border: 2px solid white;
     border-radius: 20px;
     top: 50%;
@@ -19,4 +23,54 @@
     transform: translate(-50%, -50%);
     position: absolute;
     box-shadow: 0px 0px 30px rgb(99, 99, 99);
+    
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
+    margin-top: 20px;
+}
+
+.legends {
+    color: white;
+    text-align: center;
+}
+
+.label {
+    color: white;
+    margin-left: 30px;
+}
+
+.inputs {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 60px;
+    height: 20px;
+}
+
+.button {
+    width: 320px;
+    height: 28px;
+    background-color: rgb(83, 140, 255);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bolder;
+    left: 10%;
+    position: absolute;
+}
+
+.button:hover {
+    width: 320px;
+    height: 28px;
+    background-color: rgb(26, 83, 198);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bolder;
+    left: 10%;
+    position: absolute;
 }
