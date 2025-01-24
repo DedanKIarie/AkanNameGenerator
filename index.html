@@ -8,19 +8,21 @@
         <video autoplay loop muted playsinline class="page">
             <source src="Shooting.webm" type="video/mp4">
         </video>
+
+        <h1 class="title">AkanNameGenerator 6000</h1>
         <form class="form">
             <h1 class="header">Enter Details</h1>
             
             <legend class="legends">Enter DOB</legend>
             
-            <label class="label">DD</label>
-            <input class="inputs" placeholder="DD">
+            <label class="label" max = "31" min="1" required>DD</label>
+            <input type="number" id="DD" class="inputs" placeholder="DD">
             
             <label class="label">MM</label>
-            <input class="inputs" placeholder="MM">
+            <input type="number" id="MM" class="inputs" placeholder="MM">
             
             <label class="label">YY</label>
-            <input class="inputs" placeholder="YY">
+            <input type="number" id="YY" class="inputs" placeholder="YY">
             <br><br>
 
             <legend class="legends">Pick Gender</legend>
@@ -34,5 +36,9 @@
             <br><br>
             <button class="button">Submit</button>
         </form>
+        <div class="div">
+            <p class="text1">Results will show up here</p>
+        </div>
+
     </body>
 </html>
