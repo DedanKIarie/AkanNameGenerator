@@ -104,6 +104,17 @@ body {
     
 }
 
+
+.p {
+    width: 900px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
 .text1 {
     color: white;
     text-align: center;
