@@ -25,3 +25,5 @@ Dedan Kiarie
 - CSS
 - JavaScript
 
+  Access link: https://dedankiarie.github.io/AkanNameGenerator/
+
