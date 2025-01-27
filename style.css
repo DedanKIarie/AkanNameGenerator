@@ -120,3 +120,24 @@ body {
     text-align: center;
     font-weight: bolder;
 }
+
+#alert-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  .alert-box {
+    padding: 10px 20px;
+    backdrop-filter: blur(4px);
+    border: 2px solid white;
+    color: rgb(243, 0, 0);
+    font-size: 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    font-weight: bolder;
+}
